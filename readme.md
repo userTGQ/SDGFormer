@@ -23,7 +23,7 @@ All 7 datasets come from the [LibCity](https://github.com/LibCity/Bigscity-LibCi
 You can train and test **SDGFormer** through the following commands for 7 datasets. Parameter configuration (**--config_file**) reads the JSON file in the root directory. If you need to modify the parameter configuration of the model, please modify the corresponding **JSON** file.
 
 ```shell
-python run_model.py --task traffic_state_pred --model SDGFormer --dataset PeMS04 --config_file PeMS03
+python run_model.py --task traffic_state_pred --model SDGFormer --dataset PeMS03 --config_file PeMS03
 python run_model.py --task traffic_state_pred --model SDGFormer --dataset PeMS04 --config_file PeMS04
 python run_model.py --task traffic_state_pred --model SDGFormer --dataset PeMS08 --config_file PeMS08
 python run_model.py --task traffic_state_pred --model SDGFormer --dataset PeMS07 --config_file PeMS07

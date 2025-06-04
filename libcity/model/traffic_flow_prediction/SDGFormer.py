@@ -161,8 +161,8 @@ class STEncoder(nn.Module):
         # Calculate energy in the frequency domain
         energy = torch.abs(x_fft).pow(2).sum(dim=-1)
 
-        # Flatten energy across H and W dimensions and then compute median
-        flat_energy = energy.view(B, j, -1)  # Flattening H and W into a single dimension
+       
+        flat_energy = energy.view(B, j, -1)  
         median_energy = flat_energy.median(dim=2, keepdim=True)[0]  # Compute median
         median_energy = median_energy.view(B, j, 1)  # Reshape to match the original dimensions
 

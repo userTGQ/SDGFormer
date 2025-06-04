@@ -1,0 +1,18 @@
+{
+    "traffic_state_pred": {
+        "allowed_model": [
+
+            "SDGFormer"
+        ],
+        "allowed_dataset": [
+            "PeMS04", "PeMS07", "PeMS08","PeMS03",
+            "NYCTaxi", "T-Drive", "CHIBike"
+        ],
+
+        "SDGFormer": {
+            "dataset_class": "SDGFormerDataset",
+            "executor": "SDGFormerExecutor",
+            "evaluator": "TrafficStateEvaluator"
+        }
+    }
+}

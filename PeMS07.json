@@ -1,0 +1,23 @@
+{
+    "dataset_class": "SDGFormerDataset",
+    "input_window": 12,
+    "output_window": 12,
+    "train_rate": 0.6,
+    "eval_rate": 0.2,
+    "batch_size": 16,
+    "grad_accmu_steps": 2,
+    "add_time_in_day": true,
+    "add_day_in_week": true,
+    "step_size": 4232,
+    "max_epoch": 200,
+    "bidir": true,
+    "far_mask_delta": 7,
+    "cluster_method": "kshape",
+    "cand_key_days": 14,
+    "seed": 1,
+    "type_ln": "pre",
+    "set_loss": "huber",
+    "huber_delta": 2,
+    "mode": "average",
+    "graph": 1
+}

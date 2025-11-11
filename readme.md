@@ -42,6 +42,7 @@ python run_model.py --task traffic_state_pred --model SDGFormer --dataset PeMS08
 
 
 ## If you find the paper useful, please cite as following:
+```shell
 @article{TENG2026131765,
 title = {A sparse dynamic graph transformer for traffic flow prediction},
 journal = {Neurocomputing},
@@ -52,9 +53,9 @@ issn = {0925-2312},
 doi = {https://doi.org/10.1016/j.neucom.2025.131765},
 author = {Guoqing Teng and Han Wu and Ao He and Yu Chen and Meng Zhao},
 }
-
+```
 ## If you find LibCity useful, please cite as following:
-
+```shell
 @inproceedings{pdformer,
   title={PDFormer: Propagation Delay-aware Dynamic Long-range Transformer for Traffic Flow Prediction},
   author={Jiawei Jiang and 
@@ -65,6 +66,6 @@ author = {Guoqing Teng and Han Wu and Ao He and Yu Chen and Meng Zhao},
   publisher = {{AAAI} Press},
   year      = {2023}
 }
-
+```
 
 

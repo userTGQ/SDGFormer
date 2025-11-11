@@ -43,16 +43,22 @@ python run_model.py --task traffic_state_pred --model SDGFormer --dataset PeMS08
 
 ## If you find the paper useful, please cite as following:
 ```shell
-@article{TENG2026131765,
-title = {A sparse dynamic graph transformer for traffic flow prediction},
-journal = {Neurocomputing},
-volume = {659},
-pages = {131765},
-year = {2026},
-issn = {0925-2312},
-doi = {https://doi.org/10.1016/j.neucom.2025.131765},
-author = {Guoqing Teng and Han Wu and Ao He and Yu Chen and Meng Zhao},
+
+@Article{app152011254,
+AUTHOR = {Teng, Guoqing and Wu, Han and Wu, Hao and Cao, Jiahao and Zhao, Meng},
+TITLE = {Frequency-Aware and Interactive Spatial-Temporal Graph Convolutional Network for Traffic Flow Prediction},
+JOURNAL = {Applied Sciences},
+VOLUME = {15},
+YEAR = {2025},
+NUMBER = {20},
+ARTICLE-NUMBER = {11254},
+ISSN = {2076-3417},
+DOI = {10.3390/app152011254}
 }
+
+
+
+
 ```
 ## If you find LibCity useful, please cite as following:
 ```shell

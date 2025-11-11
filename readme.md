@@ -41,7 +41,30 @@ python run_model.py --task traffic_state_pred --model SDGFormer --dataset PeMS08
 **Note**: By default the result recorded in the experiment log is the average of the first n steps. This is consistent with the paper (configured as **"mode": "average"** in the JSON file). If you need to get the results of each step separately, please modify the configuration of the JSON file to **"mode": "single"**.
 
 
+If you find the paper useful, please cite as following:
+@article{TENG2026131765,
+title = {A sparse dynamic graph transformer for traffic flow prediction},
+journal = {Neurocomputing},
+volume = {659},
+pages = {131765},
+year = {2026},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2025.131765},
+author = {Guoqing Teng and Han Wu and Ao He and Yu Chen and Meng Zhao},
+}
 
+If you find LibCity useful, please cite as following:
+
+@inproceedings{pdformer,
+  title={PDFormer: Propagation Delay-aware Dynamic Long-range Transformer for Traffic Flow Prediction},
+  author={Jiawei Jiang and 
+  		  Chengkai Han and 
+  		  Wayne Xin Zhao and 
+  		  Jingyuan Wang},
+  booktitle = {{AAAI}},
+  publisher = {{AAAI} Press},
+  year      = {2023}
+}
 
 
 
